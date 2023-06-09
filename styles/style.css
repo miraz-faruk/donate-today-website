@@ -223,8 +223,9 @@ p {
     padding: 14px 218px 14px 17px;
 }
 
-::placeholder{
-    color: #AA9F9F;;
+::placeholder {
+    color: #AA9F9F;
+    ;
 }
 
 .contact .btn-primary {
@@ -235,3 +236,25 @@ p {
     padding: 14px 42px 14px 43px;
 }
 
+/* Footer style */
+
+.footer {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 43px 629px 42px 653px;
+}
+
+.be-humble {
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
