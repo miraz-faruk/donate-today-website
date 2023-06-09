@@ -104,19 +104,51 @@
     padding-bottom: 9.5px;
 }
 
-hr{
+hr {
     border: 1px solid #DADADA;
     margin-bottom: 30px;
 }
 
-#clr-btn{
+#clr-btn {
     background: #FFEEEE;
     color: #FF5959;
 }
 
 /* donate plan section */
 
-.section-header{
+.section-header {
     margin-left: 375px;
     margin-right: 374px;
+}
+
+.container {
+    display: flex;
+    margin: 0px 155px 0 157px;
+    gap: 24px;
+}
+
+#box-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#box-2{
+    background-color: rgba(255, 89, 89, 0.1);;
+}
+
+#box-3{
+    background-color: rgba(255, 255, 0, 0.251);
+}
+
+.box{
+    padding: 63.5px 22px 54px 23px;
+    border-radius: 5px;
+}
+
+.content-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 16px;
+    padding-top: 31.73px;
 }
