@@ -112,6 +112,8 @@ hr {
 #clr-btn {
     background: #FFEEEE;
     color: #FF5959;
+    border-style: solid;
+    border-color: #FF5959;
 }
 
 /* donate plan section */
@@ -183,7 +185,7 @@ p {
 .photo {
     width: 456px;
     height: 477px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .photo-2 {
@@ -191,3 +193,45 @@ p {
     margin: 130.5px 256px 100px 156px;
     gap: 83px;
 }
+
+/* my-update section */
+
+.my-update {
+    margin: 0 315px 130px 314px;
+    text-align: center;
+}
+
+.my-update .description {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    background: #FFF4D6;
+    padding: 76px 189px 76px 120px;
+    display: flex;
+}
+
+.email-id {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 14px 218px 14px 17px;
+}
+
+::placeholder{
+    color: #AA9F9F;;
+}
+
+.contact .btn-primary {
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 14px 42px 14px 43px;
+}
+
