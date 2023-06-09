@@ -131,15 +131,16 @@ hr {
     background-color: rgba(79, 157, 166, 0.1);
 }
 
-#box-2{
-    background-color: rgba(255, 89, 89, 0.1);;
+#box-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
 }
 
-#box-3{
+#box-3 {
     background-color: rgba(255, 255, 0, 0.251);
 }
 
-.box{
+.box {
     padding: 63.5px 22px 54px 23px;
     border-radius: 5px;
 }
@@ -151,4 +152,42 @@ hr {
     font-size: 24px;
     padding-bottom: 16px;
     padding-top: 31.73px;
+}
+
+/* Photo section */
+
+.photo-1 {
+    display: flex;
+    margin: 130.5px 256px 100px 156px;
+    gap: 83px;
+}
+
+h3 {
+    padding-top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.photo {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px; 
+}
+
+.photo-2 {
+    display: flex;
+    margin: 130.5px 256px 100px 156px;
+    gap: 83px;
 }
