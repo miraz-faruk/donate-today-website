@@ -29,10 +29,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 374px;
-    padding-right: 374px;
+    padding: 20px 374px 30px 374px;
 }
 
 .btn-primary {
@@ -54,15 +51,16 @@
     padding-right: 337px;
 }
 
-.donate-today .section-title {
+.section-title {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 45px;
     padding-top: 130px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
-.donate-today .section-description {
+.section-description {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -71,6 +69,7 @@
     margin-left: 37px;
     margin-right: 36px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .donate-today .donation-amount-btn {
@@ -115,3 +114,9 @@ hr{
     color: #FF5959;
 }
 
+/* donate plan section */
+
+.section-header{
+    margin-left: 375px;
+    margin-right: 374px;
+}
