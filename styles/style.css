@@ -43,12 +43,15 @@
     font-size: 20px;
     color: #FFFFFF;
     padding: 16px 20.5px;
+    border-style: none;
 }
 
 /* donate-today section */
 
 .donate-today {
     text-align: center;
+    padding-left: 338px;
+    padding-right: 337px;
 }
 
 .donate-today .section-title {
@@ -61,17 +64,54 @@
 
 .donate-today .section-description {
     font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: #707070;
-    padding-left: 375px;
-    padding-right: 375px;
+    margin-left: 37px;
+    margin-right: 36px;
     padding-bottom: 50px;
 }
 
-.donate-today .containers{
+.donate-today .donation-amount-btn {
     display: flex;
     gap: 22px;
     justify-content: center;
-
 }
+
+.donate-today .donation-amount-btn {
+    padding-bottom: 60px;
+}
+
+.donate-today .btn-secondary {
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    font-style: normal;
+    border-style: none;
+}
+
+.donate-today .other-amount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding-bottom: 9.5px;
+}
+
+hr{
+    border: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+#clr-btn{
+    background: #FFEEEE;
+    color: #FF5959;
+}
+
