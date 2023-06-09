@@ -2,6 +2,7 @@
     margin: 0px;
 }
 
+/* Header section styles */
 .header {
     background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../styles/images/donation3.jpg);
     /* padding: 174px 307px; */
@@ -42,4 +43,35 @@
     font-size: 20px;
     color: #FFFFFF;
     padding: 16px 20.5px;
+}
+
+/* donate-today section */
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-today .section-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.donate-today .section-description {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-left: 375px;
+    padding-right: 375px;
+    padding-bottom: 50px;
+}
+
+.donate-today .containers{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+
 }
